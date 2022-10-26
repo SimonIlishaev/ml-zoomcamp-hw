@@ -1,0 +1,11 @@
+service: "credit_risk_service.py:svc"
+labels:
+  owner: nenomius
+  project: mlzoomcamp
+include:
+- "*.py"
+python:
+  packages:
+    - xgboost
+    - sklearn
+    - pydantic
