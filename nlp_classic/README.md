@@ -101,7 +101,7 @@ docker run -it --rm -p 3000:3000 sentiment_classifier:<YOUR TAG>
   <summary>Screencast (Click it)</summary>
 
 <video controls>
-  <source src="./images/screencast.webm" type="video/webm">
+  <source src="./images/screencast.mp4" type="video/mp4">
 </video>
 
 </details>
