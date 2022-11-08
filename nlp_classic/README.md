@@ -26,6 +26,7 @@ Clone repository and export conda environment to play with repo:
 ```zsh
 conda env create -n ENVNAME --file environment.yml
 ```
+Run the [notebook](./sentiment_analysis.ipynb)
 
 ## 2. Modeling approach
 
