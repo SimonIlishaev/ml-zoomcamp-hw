@@ -97,15 +97,6 @@ docker run -it --rm -p 3000:3000 sentiment_classifier:<YOUR TAG>
 
 ## 5. Deployment with [Yandex Serverless Containers](https://cloud.yandex.com/en/docs/serverless-containers/operations)
 
-<details>
-  <summary>Screencast (Click it)</summary>
-
-<video controls>
-  <source src="./images/screencast.mp4" type="video/mp4">
-</video>
-
-</details>
-
 Temporary URL: <https://bbah254r1kim16a93724.containers.yandexcloud.net/>
 
 (Assuming that you already registered and have installed [Yandex Cloud CLI](https://cloud.yandex.com/en/docs/cli/quickstart#install))
@@ -181,3 +172,6 @@ yc serverless container allow-unauthenticated-invoke <container_name>
 
 ```zsh
 yc serverless container get <container_name>
+```
+
+Watch the [screencast](https://youtu.be/uOUoz93NtDk)
