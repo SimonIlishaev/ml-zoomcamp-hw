@@ -1,0 +1,13 @@
+service: "sentiment.py:xgbc"
+labels:
+  owner: Simon Ilishaev
+  project: nlp_classic
+include:
+- "*.py"
+python:
+  packages:
+    - "xgboost==1.6.2"
+    - "scikit-learn==1.1.2"
+    - "nltk==3.6.7"
+docker:
+  setup_script: "./setup.py"
