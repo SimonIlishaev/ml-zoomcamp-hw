@@ -1,0 +1,10 @@
+service: "service.py:rf"
+labels:
+  owner: Simon Ilishaev
+  project: scoring
+include:
+- "*.py"
+python:
+  packages:
+    - "scikit-learn==1.2.1"
+
